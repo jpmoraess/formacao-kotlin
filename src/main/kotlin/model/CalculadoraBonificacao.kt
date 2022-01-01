@@ -1,3 +1,7 @@
+package model
+
+import model.Funcionario
+
 class CalculadoraBonificacao {
     var total: Double = 0.0
         private set
@@ -7,11 +11,11 @@ class CalculadoraBonificacao {
         this.total += funcionario.bonificacao
     }
 
-//    fun registra(gerente: Gerente) {
+//    fun registra(gerente: model.Gerente) {
 //        this.total += gerente.bonificacao
 //    }
 //
-//    fun registra(diretor: Diretor) {
+//    fun registra(diretor: model.Diretor) {
 //        this.total += diretor.bonificacao
 //    }
 }

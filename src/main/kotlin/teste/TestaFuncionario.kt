@@ -1,3 +1,8 @@
+import model.Analista
+import model.CalculadoraBonificacao
+import model.Diretor
+import model.Gerente
+
 fun testaFuncionarios() {
     val joao = Analista(
         nome = "João Pedro",
@@ -30,7 +35,7 @@ fun testaFuncionarios() {
 
 
     val diretor = Diretor(
-        nome = "Diretor",
+        nome = "model.Diretor",
         cpf = "43434343433",
         salario = 10500.0,
         senha = 1234,

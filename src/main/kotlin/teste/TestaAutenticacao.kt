@@ -1,3 +1,8 @@
+import model.Cliente
+import model.Diretor
+import model.Gerente
+import model.SistemaInterno
+
 fun testaAutenticacao() {
     val gerente = Gerente("João Pedro", "3429323223", 2399.0, 654321)
 
